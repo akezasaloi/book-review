@@ -6,13 +6,10 @@
     font-family: 'rekalgera';
     src: url('Fonts/Rekalgera-Regular.otf');
 }
+
 @font-face {
-    font-family: 'kugile';
-    src: url('Fonts/Kugile_Demo.ttf');
-}
-@font-face {
-    font-family: 'Pin-Sans';
-    src: url('https://s.pinimg.com/webapp/Pin-Sans-MacOS-Bold-ce475d98.woff2') format('woff2');
+    font-family: 'borisna';
+    src: url('Fonts/Borisna.ttf');
 }
 h1{
     font-family: rekalgera;
@@ -40,7 +37,7 @@ header{
     >ul a{
         font-size: 30px;
         text-decoration: none;
-        color:#BF784E;
+        color:#e7dbd3;
         padding:25px;
         font-family: rekalgera;
     }
@@ -59,7 +56,7 @@ i{
         font-size: 30px;
         font-family: rekalgera;
         margin-right: 25px;
-        color:#BF784E;
+        color:#e7dbd3;
     }
 }
 .read-rev, .review-rev{
@@ -102,21 +99,17 @@ i{
     display: flex;
     text-align: center;
     gap:30px;
+    color:white;
     img{
        width: 280px;
-       height: 320px;
+       height: 350px;
     }
     img:hover{
         transform: scale(1.1);
         border: none;
     }
 }
-.trevor{
-    color:#04C4D9;
-}
-.spencer{
-    color:#BF3030;
-}
+
 .book-shelf{
     width:40%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('Images/library.jpg');
@@ -142,7 +135,7 @@ i{
 }
 .quotes{
     font-size: 22px;
-    font-family: kugile;
+    font-family: bosina;
     font-weight: bold;
     position: absolute;
     opacity:0;
